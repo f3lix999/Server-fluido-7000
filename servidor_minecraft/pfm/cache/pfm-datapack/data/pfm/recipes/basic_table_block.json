@@ -1,0 +1,55 @@
+{
+  "type": "pfm:dynamic_furniture",
+  "group": "tables",
+  "supportedVariants": [
+    "minecraft:oak",
+    "minecraft:spruce",
+    "minecraft:birch",
+    "minecraft:jungle",
+    "minecraft:acacia",
+    "minecraft:dark_oak",
+    "minecraft:crimson",
+    "minecraft:warped",
+    "biomesoplenty:fir",
+    "biomesoplenty:redwood",
+    "biomesoplenty:cherry",
+    "biomesoplenty:mahogany",
+    "biomesoplenty:jacaranda",
+    "biomesoplenty:palm",
+    "biomesoplenty:willow",
+    "biomesoplenty:dead",
+    "biomesoplenty:magic",
+    "biomesoplenty:umbran",
+    "biomesoplenty:hellbark",
+    "born_in_chaos_v1:scorched",
+    "iceandfire:dreadwood",
+    "minecraft:stone",
+    "minecraft:light_wood",
+    "minecraft:dark_wood",
+    "minecraft:quartz",
+    "minecraft:netherite",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "tconstruct:scorched_stone",
+    "create:limestone",
+    "create:weathered_limestone",
+    "create:dolomite",
+    "create:gabbro",
+    "create:scoria",
+    "create:dark_scoria"
+  ],
+  "ingredients": {
+    "vanillaIngredients": [],
+    "variantChildren": {
+      "secondary": 5,
+      "base": 3
+    }
+  },
+  "result": {
+    "outputClass": "BasicTableBlock",
+    "count": 4
+  }
+}

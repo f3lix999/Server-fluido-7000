@@ -1,0 +1,37 @@
+{
+  "type": "pfm:dynamic_furniture",
+  "group": "tables",
+  "supportedVariants": [
+    "minecraft:oak",
+    "minecraft:spruce",
+    "minecraft:birch",
+    "minecraft:jungle",
+    "minecraft:acacia",
+    "minecraft:dark_oak",
+    "minecraft:crimson",
+    "minecraft:warped",
+    "biomesoplenty:fir",
+    "biomesoplenty:redwood",
+    "biomesoplenty:cherry",
+    "biomesoplenty:mahogany",
+    "biomesoplenty:jacaranda",
+    "biomesoplenty:palm",
+    "biomesoplenty:willow",
+    "biomesoplenty:dead",
+    "biomesoplenty:magic",
+    "biomesoplenty:umbran",
+    "biomesoplenty:hellbark",
+    "born_in_chaos_v1:scorched",
+    "iceandfire:dreadwood"
+  ],
+  "ingredients": {
+    "vanillaIngredients": [],
+    "variantChildren": {
+      "secondary": 3
+    }
+  },
+  "result": {
+    "outputClass": "RawLogTableBlock",
+    "count": 4
+  }
+}

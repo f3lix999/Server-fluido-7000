@@ -1,0 +1,346 @@
+[12May2026 01:21:52.830] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[12May2026 01:21:52.834] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.30 by Ubuntu
+[12May2026 01:21:53.361] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[12May2026 01:21:53.518] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/Server-fluido-7000/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[12May2026 01:21:54.247] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12May2026 01:21:54.351] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12May2026 01:21:54.359] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12May2026 01:21:54.368] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12May2026 01:21:55.457] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[12May2026 01:21:55.460] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[12May2026 01:21:55.811] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/AbstractClientPlayerEntity for invalid dist DEDICATED_SERVER
+[12May2026 01:21:55.812] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/AbstractClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/AbstractClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[12May2026 01:21:55.812] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.AbstractClientPlayerEntity was not found moreplayermodels.mixins.json:AbstractClientPlayerEntityMixin
+[12May2026 01:21:55.814] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/ActiveRenderInfo for invalid dist DEDICATED_SERVER
+[12May2026 01:21:55.814] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/ActiveRenderInfo (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/ActiveRenderInfo for invalid dist DEDICATED_SERVER)
+[12May2026 01:21:55.814] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.ActiveRenderInfo was not found moreplayermodels.mixins.json:ActiveRenderInfoMixin
+[12May2026 01:21:55.816] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/BipedArmorLayer for invalid dist DEDICATED_SERVER
+[12May2026 01:21:55.817] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/BipedArmorLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/BipedArmorLayer for invalid dist DEDICATED_SERVER)
+[12May2026 01:21:55.817] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.BipedArmorLayer was not found moreplayermodels.mixins.json:ArmorLayerMixin
+[12May2026 01:21:55.819] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/model/BipedModel (java.lang.ClassNotFoundException: null)
+[12May2026 01:21:55.819] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.model.BipedModel was not found moreplayermodels.mixins.json:BipedBodyMixin
+[12May2026 01:21:55.821] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/LivingRenderer for invalid dist DEDICATED_SERVER
+[12May2026 01:21:55.821] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/LivingRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/LivingRenderer for invalid dist DEDICATED_SERVER)
+[12May2026 01:21:55.822] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.LivingRenderer was not found moreplayermodels.mixins.json:LivingRendererMixin
+[12May2026 01:21:55.823] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/model/ModelRenderer (java.lang.ClassNotFoundException: null)
+[12May2026 01:21:55.823] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.model.ModelRenderer was not found moreplayermodels.mixins.json:ModelRendererMixin
+[12May2026 01:21:55.827] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[12May2026 01:21:55.827] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/ParticleManager (java.lang.RuntimeException: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER)
+[12May2026 01:21:55.828] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.particle.ParticleManager was not found moreplayermodels.mixins.json:ParticleManagerMixin
+[12May2026 01:21:55.848] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/PlayerRenderer for invalid dist DEDICATED_SERVER
+[12May2026 01:21:55.849] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PlayerRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/PlayerRenderer for invalid dist DEDICATED_SERVER)
+[12May2026 01:21:55.849] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PlayerRenderer was not found moreplayermodels.mixins.json:PlayerRendererMixin
+[12May2026 01:22:04.743] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:04.746] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:04.747] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:04.747] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:04.944] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `playerrevive` for name `death`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:04.945] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `playerrevive` for name `revived`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:06.255] [modloading-worker-1/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[12May2026 01:22:08.394] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.12...
+[12May2026 01:22:09.309] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[12May2026 01:22:09.309] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[12May2026 01:22:09.381] [modloading-worker-0/INFO] [expandability/]: ExpandAbility here, who dis?
+[12May2026 01:22:26.379] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:26.893] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:26.894] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[12May2026 01:22:28.280] [main/INFO] [com.barion.dungeons_enhanced.DungeonsEnhanced/]: Dungeons Enhanced structures loaded
+[12May2026 01:22:28.361] [main/INFO] [ModdingLegacy/structure_gel/Compat/]: Checking for biome dictionary registry methods in other mods.
+[12May2026 01:22:28.895] [modloading-worker-1/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[12May2026 01:22:29.062] [modloading-worker-1/INFO] [voicechat/]: [voicechat] Loading plugins
+[12May2026 01:22:29.077] [modloading-worker-1/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[12May2026 01:22:29.081] [modloading-worker-1/INFO] [voicechat/]: [voicechat] Initializing plugins
+[12May2026 01:22:29.081] [modloading-worker-1/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[12May2026 01:22:29.285] [modloading-worker-3/INFO] [Dungeon Crawl/]: Common Setup
+[12May2026 01:22:29.300] [modloading-worker-3/INFO] [Dungeon Crawl/]: Whitelisted Dimensions:
+[12May2026 01:22:29.301] [modloading-worker-3/INFO] [Dungeon Crawl/]: minecraft:overworld
+[12May2026 01:22:29.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[12May2026 01:22:29.459] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: AHEAD Current: 3.1.2 Target: null
+[12May2026 01:22:29.459] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[12May2026 01:22:29.663] [main/INFO] [Dungeon Crawl/]: Registering Structure Piece Types
+[12May2026 01:22:29.998] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[12May2026 01:22:29.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwtrpdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/trapdoors.json
+[12May2026 01:22:30.037] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwtrpdoors] Found status: UP_TO_DATE Current: 1.1.5 Target: null
+[12May2026 01:22:30.037] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[12May2026 01:22:30.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.1 Target: null
+[12May2026 01:22:30.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[12May2026 01:22:30.065] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: AHEAD Current: 1.9.2 Target: null
+[12May2026 01:22:30.069] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[12May2026 01:22:30.094] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.2 Target: null
+[12May2026 01:22:30.094] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwholidays] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/holidays.json
+[12May2026 01:22:30.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwholidays] Found status: UP_TO_DATE Current: 1.1.2 Target: null
+[12May2026 01:22:30.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaintings] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paintings.json
+[12May2026 01:22:30.120] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Attempting to register unregistered biomes to the biome dictionary. This can be disabled via config.
+[12May2026 01:22:30.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaintings] Found status: AHEAD Current: 1.1.0 Target: null
+[12May2026 01:22:30.124] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[12May2026 01:22:30.185] [modloading-worker-0/INFO] [Waila/]: Registered plugin at snownee.jade.JadePlugin
+[12May2026 01:22:30.186] [modloading-worker-0/INFO] [Waila/]: Registered plugin at snownee.jade.JadeClientPlugin
+[12May2026 01:22:30.198] [modloading-worker-0/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[12May2026 01:22:30.211] [modloading-worker-0/INFO] [Waila/]: Registered plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[12May2026 01:22:30.213] [modloading-worker-0/INFO] [Waila/]: Registered plugin at ovh.corail.tombstone.compatibility.IntegrationWaila
+[12May2026 01:22:30.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: v1.10.1 Target: null
+[12May2026 01:22:30.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwstairs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/stairs.json
+[12May2026 01:22:30.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwstairs] Found status: UP_TO_DATE Current: 1.0.2 Target: null
+[12May2026 01:22:30.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[12May2026 01:22:30.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 6.9.7 Target: null
+[12May2026 01:22:30.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[12May2026 01:22:30.432] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.3.2 Target: null
+[12May2026 01:22:30.432] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[12May2026 01:22:30.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: AHEAD Current: 1.1.5 Target: null
+[12May2026 01:22:30.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[12May2026 01:22:30.490] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
+[12May2026 01:22:30.491] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12May2026 01:22:30.674] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[12May2026 01:22:30.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paths.json
+[12May2026 01:22:30.687] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Found status: UP_TO_DATE Current: 1.1.1 Target: null
+[12May2026 01:22:30.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/lights.json
+[12May2026 01:22:30.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Found status: UP_TO_DATE Current: 1.1.5 Target: null
+[12May2026 01:22:30.882] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered graveyard:eroded_haunted_forest to structure_gel:[]
+[12May2026 01:22:30.883] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered stalwart_dungeons:poubelle to structure_gel:[]
+[12May2026 01:22:30.883] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered graveyard:haunted_forest to structure_gel:[]
+[12May2026 01:22:30.883] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered graveyard:haunted_lakes to structure_gel:[]
+[12May2026 01:22:30.883] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:castle
+[12May2026 01:22:30.884] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:desert_temple
+[12May2026 01:22:30.884] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:desert_tomb
+[12May2026 01:22:30.884] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:druid_circle
+[12May2026 01:22:30.884] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:dungeon_variant
+[12May2026 01:22:30.885] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:elders_temple
+[12May2026 01:22:30.885] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:fishing_ship
+[12May2026 01:22:30.885] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:flying_dutchman
+[12May2026 01:22:30.885] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:hay_storage
+[12May2026 01:22:30.886] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:ice_pit
+[12May2026 01:22:30.886] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:jungle_monument
+[12May2026 01:22:30.886] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:large_dungeon
+[12May2026 01:22:30.886] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:miners_house
+[12May2026 01:22:30.887] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:monster_maze
+[12May2026 01:22:30.887] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:mushroom_house
+[12May2026 01:22:30.887] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:pillager_camp
+[12May2026 01:22:30.888] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:pirate_ship
+[12May2026 01:22:30.888] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:ruined_building
+[12May2026 01:22:30.888] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:stables
+[12May2026 01:22:30.888] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:sunken_shrine
+[12May2026 01:22:30.889] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:tall_witch_hut
+[12May2026 01:22:30.889] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:tree_house
+[12May2026 01:22:30.889] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:tower_of_the_undead
+[12May2026 01:22:30.889] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:watch_tower
+[12May2026 01:22:30.889] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_enhanced:witch_tower
+[12May2026 01:22:43.148] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Value 9 outside of range [0:7]
+[12May2026 01:22:44.876] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12May2026 01:22:46.289] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, cart1] and [c, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12May2026 01:22:46.301] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, carts] and [c, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12May2026 01:22:46.303] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, cart1] and [c, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12May2026 01:22:46.308] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, carts] and [c, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12May2026 01:22:46.329] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [mpm, scale, targets, all] and [mpm, scale, targets, head] with inputs: [words_with_underscores, word]
+[12May2026 01:22:46.335] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [mpm, scale, targets, head] and [mpm, scale, targets, all] with inputs: [words_with_underscores, word]
+[12May2026 01:22:46.340] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [mpm, sendmodel, targets, clear] and [mpm, sendmodel, targets, from] with inputs: [clear]
+[12May2026 01:22:46.354] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12May2026 01:22:46.360] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12May2026 01:22:46.363] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12May2026 01:22:46.369] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12May2026 01:22:46.375] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12May2026 01:22:46.379] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [voicechat, join, group_id] and [voicechat, join, group_name] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12May2026 01:22:46.412] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, TConstruct-1.16.5-3.3.4.335.jar, mcw-bridges-3.1.2-mc1.16.5forge.jar, FarmersDelight-1.16.5-0.6.0.jar, voicechat-forge-1.16.5-2.6.16.jar, mowziesmobs-1.5.27.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, Jade-1.16.4-2.8.3.jar, CreativeCore_v2.2.1_mc1.16.5.jar, mcw-trapdoors-1.1.5-mc1.16.5forge.jar, mcw-mcwfences-1.2.1-mc1.16.5forge.jar, The_Graveyard_2.1_(FORGE)_for_1.16.4-1.16.5.jar, born_in_chaos_1.16_1.3.jar, dungeons_enhanced-1.16.5-1.9.2.jar, mcw-mcwwindows-2.4.2-mc1.16.5forge.jar, stalwart-dungeons-1.16.5-1.1.7.jar, flywheel-1.16-0.2.5.jar, curios-forge-1.16.5-4.1.0.0.jar, Mantle-1.16.5-1.6.157.jar, create-mc1.16.5_v0.3.2g.jar, mcw-holidays-1.1.2-mc1.16.5forge.jar, MorePlayerModels-1.16.5.20220731.jar, mcw-paintings-1.1.0-mc1.16.5forge.jar, citadel-1.8.1-1.16.5.jar, alexsmobs-1.12.1.jar, [1.16.5] SecurityCraft v1.10.1.jar, Artifacts-1.16.5-2.10.6.jar, immersive_paintings-0.4.4+1.16.5.jar, mcw-mcwstairs-1.0.2-mc1.16.5forge.jar, tombstone-1.16.5-6.9.7.jar, DungeonCrawl-1.16.5-2.3.12.jar, sophisticatedbackpacks-1.16.5-3.15.20.755.jar, mcw-roofs-2.3.2-mc1.16.5forge.jar, mcw-doors-1.1.5-mc1.16.5forge.jar, mcw-furniture-3.4.1-mc1.16.5forge.jar, iceandfire-2.1.12-1.16.5-patch-1.jar, Paraglider-1.16.5-1.3.2.14.jar, forge-1.16.5-36.2.42-universal.jar, expandability-2.0.1-forge.jar, supplementaries-1.16.5-0.18.5.jar, PlayerRevive_v2.0.0-pre04_mc1.16.5.jar, geckolib-forge-1.16.5-3.0.106.jar, mcw-mcwpaths-1.1.1-mc1.16.5forge.jar, structure_gel-1.16.5-1.7.8.jar, selene-1.16.5-1.9.0.jar, mcw-lights-1.1.5-mc1.16.5forge.jar, DungeonsArise-1.16.5-2.1.49-beta.jar, jei-1.16.5-7.8.0.1013.jar
+[12May2026 01:22:51.431] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[12May2026 01:22:51.503] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[12May2026 01:22:51.529] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:planter_rich_soul as it's serializer returned null
+[12May2026 01:22:51.607] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:stone_tile_vertical_slab as it's serializer returned null
+[12May2026 01:22:51.662] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:blackstone_tile_vertical_slab as it's serializer returned null
+[12May2026 01:22:51.675] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:deepslate_lamp as it's serializer returned null
+[12May2026 01:22:51.711] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:checker_vertical_slab as it's serializer returned null
+[12May2026 01:22:51.723] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:gold_gate as it's serializer returned null
+[12May2026 01:22:51.738] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[12May2026 01:22:51.757] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:firefly_jar_tf as it's serializer returned null
+[12May2026 01:22:51.828] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 36 recipes
+[12May2026 01:22:54.580] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.580] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[14].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.580] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/restless_spirit_n}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.581] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bone_imp_n}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.581] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/seared_spirit}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.581] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bone_imp}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.581] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/nightmare_stalker_n}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.581] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[18].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.581] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.581] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door_n}.pools[0].entries[8].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.581] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[17].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.582] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bonescaller}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.582] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher}.pools[0].entries[6].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.582] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/decaying_zombie}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.582] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/nightmare_stalker}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.582] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/nightmare_stalker_n}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.582] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher_n}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.582] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bonescaller_n}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/seared_spirit}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_bomb}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/decrepit_skeleton}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door_n}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[13].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bone_imp_n}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher_n}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.583] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/seared_spirit}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.584] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.584] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/decrepit_skeleton_n}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.584] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bonescaller_n}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.584] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/firelight_n}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.584] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[7].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.584] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door_n}.pools[0].entries[7].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.585] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door}.pools[0].entries[6].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.585] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[16].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.585] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.585] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door_n}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.586] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bonescaller}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.586] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_bomb}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.587] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[12].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.587] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.588] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/decrepit_skeleton}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.588] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.588] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/supreme_bonescaller_s_2}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.588] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/decrepit_skeleton_n}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.588] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/supreme_bonescaller_s_2}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.588] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[15].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.588] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bonescaller}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.588] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/fallen_chaos_knight}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.589] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[10].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.589] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/nightmare_stalker}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.589] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bonescaller_n}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.590] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[11].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.590] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.590] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door_n}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.590] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher_n}.pools[0].entries[6].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.590] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door}.pools[0].entries[7].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.590] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door_n}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.590] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/restless_spirit}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.590] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.592] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/supreme_bonescaller_s_2}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.592] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/fallen_chaos_knight}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.592] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/diamond_thermite}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.592] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/supreme_bonescaller_s_2}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.592] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bonescaller_n}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.592] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.592] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/firelight}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.592] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher_n}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {alexsmobs:gameplay/seal_reward}.pools[0].entries[1].functions[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/nightmare_stalker}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door}.pools[0].entries[8].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[9].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[30].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/restless_spirit}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/nightmare_stalker_n}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/nightmare_stalker}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.593] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.594] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher_n}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.594] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bonescaller}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.594] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombiesina_barrel}.pools[0].entries[31].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.594] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/bone_imp}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.594] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/pumpkin_spirit}.pools[0].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.594] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/restless_spirit_n}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.594] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/nightmare_stalker_n}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.595] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/zombieswith_door_n}.pools[0].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.595] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/decaying_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.595] [Worker-Main-4/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {born_in_chaos_v1:entities/skeleton_thrasher}.pools[0].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[12May2026 01:22:54.949] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3952 advancements
+[12May2026 01:22:54.958] [Worker-Main-4/INFO] [Dungeon Crawl/]: Loading data...
+[12May2026 01:22:55.758] [Worker-Main-4/INFO] [Dungeon Crawl/]: Done.
+[12May2026 01:22:55.871] [Worker-Main-4/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 53 materials in 6.349735 ms
+[12May2026 01:22:55.918] [Worker-Main-4/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 128 stats loaded for 67 materials in 46.73469 ms
+[12May2026 01:22:55.962] [Worker-Main-4/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 56 traits loaded for 67 materials in 43.498768 ms
+[12May2026 01:22:55.983] [Worker-Main-4/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 15 station slot layouts in 18.368551 ms
+[12May2026 01:23:05.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[12May2026 01:23:05.318] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12May2026 01:23:05.318] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12May2026 01:23:05.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12May2026 01:23:05.511] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12May2026 01:23:05.629] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[12May2026 01:23:05.733] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12May2026 01:23:05.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12May2026 01:23:05.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12May2026 01:23:05.735] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12May2026 01:23:05.835] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12May2026 01:23:06.338] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityVoidWorm from class com.github.alexthe666.alexsmobs.entity.EntityVoidPortal
+[12May2026 01:23:06.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12May2026 01:23:07.524] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12May2026 01:23:07.525] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12May2026 01:23:07.525] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12May2026 01:23:07.858] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1403 ms
+[12May2026 01:23:07.861] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.099s)! For help, type "help"
+[12May2026 01:23:07.943] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
+[12May2026 01:23:07.944] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[12May2026 01:23:07.945] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12May2026 01:23:07.959] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host port is 25565
+[12May2026 01:23:07.964] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
+[12May2026 01:23:19.018] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7b50d20b
+[12May2026 01:23:19.079] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: ElFenix09[/10.215.22.169:62649] logged in with entity id 455 at (430.8968821876208, 72.0, 1021.1194834975134)
+[12May2026 01:23:19.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ElFenix09 joined the game
+[12May2026 01:23:19.252] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@15e329e1
+[12May2026 01:23:19.263] [Server thread/INFO] [Waila/]: Syncing config to ElFenix09 (5020cf2c-2544-3ff7-8f11-fae2ea6a0f67)
+[12May2026 01:23:20.087] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ElFenix09 (20)
+[12May2026 01:23:20.091] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ElFenix09
+[12May2026 01:23:24.279] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 5020cf2c-2544-3ff7-8f11-fae2ea6a0f67
+[12May2026 01:23:25.278] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 5020cf2c-2544-3ff7-8f11-fae2ea6a0f67
+[12May2026 01:23:25.282] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ElFenix09 (5020cf2c-2544-3ff7-8f11-fae2ea6a0f67) successfully connected to voice chat
+[12May2026 01:31:24.772] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2d59711c
+[12May2026 01:31:24.812] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: GOAT-10[/10.215.22.218:60491] logged in with entity id 1934 at (-417.69999998807907, 66.0, 2069.2659673835733)
+[12May2026 01:31:24.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 joined the game
+[12May2026 01:31:25.160] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@38ae79a2
+[12May2026 01:31:25.172] [Server thread/INFO] [Waila/]: Syncing config to GOAT-10 (6eeb5c32-6bf0-36ad-b33b-b688a36774b0)
+[12May2026 01:31:26.659] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of GOAT-10 (20)
+[12May2026 01:31:26.660] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to GOAT-10
+[12May2026 01:31:31.549] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0
+[12May2026 01:31:32.553] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0
+[12May2026 01:31:32.554] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player GOAT-10 (6eeb5c32-6bf0-36ad-b33b-b688a36774b0) successfully connected to voice chat
+[12May2026 01:31:39.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 is bleeding...
+[12May2026 01:31:39.938] [Server thread/WARN] [tombstone/]: The death event of the player GOAT-10 was canceled by another mod
+[12May2026 01:31:39.959] [Server thread/INFO] [tombstone/]: The player GOAT-10 has successfully been saved
+[12May2026 01:31:50.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <GOAT-10> tpttpptptppt
+[12May2026 01:31:52.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [ElFenix09: Teleported GOAT-10 to ElFenix09]
+[12May2026 01:34:37.522] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: GOAT-10 lost connection: Disconnected
+[12May2026 01:34:37.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 left the game
+[12May2026 01:34:37.533] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client GOAT-10
+[12May2026 01:38:14.400] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1e674d41
+[12May2026 01:38:14.436] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: GOAT-10[/10.215.22.218:60525] logged in with entity id 3271 at (463.14906024191805, 70.0, 1026.0366409320459)
+[12May2026 01:38:14.442] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 joined the game
+[12May2026 01:38:14.491] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@75fe0b80
+[12May2026 01:38:14.502] [Server thread/INFO] [Waila/]: Syncing config to GOAT-10 (6eeb5c32-6bf0-36ad-b33b-b688a36774b0)
+[12May2026 01:38:15.793] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of GOAT-10 (20)
+[12May2026 01:38:15.794] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to GOAT-10
+[12May2026 01:38:21.563] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0
+[12May2026 01:38:22.588] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0
+[12May2026 01:38:22.589] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player GOAT-10 (6eeb5c32-6bf0-36ad-b33b-b688a36774b0) successfully connected to voice chat
+[12May2026 01:38:32.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 is bleeding...
+[12May2026 01:38:32.526] [Server thread/WARN] [tombstone/]: The death event of the player GOAT-10 was canceled by another mod
+[12May2026 01:38:32.535] [Server thread/INFO] [tombstone/]: The player GOAT-10 has successfully been saved
+[12May2026 01:41:50.274] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: GOAT-10 lost connection: Disconnected
+[12May2026 01:41:50.274] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 left the game
+[12May2026 01:41:50.275] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client GOAT-10
+[12May2026 01:43:50.939] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@20d8fec3
+[12May2026 01:43:50.967] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: GOAT-10[/10.215.22.218:55005] logged in with entity id 4191 at (487.1686016127217, 69.0, 1043.3825225791215)
+[12May2026 01:43:50.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 joined the game
+[12May2026 01:43:51.024] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6b10b080
+[12May2026 01:43:51.036] [Server thread/INFO] [Waila/]: Syncing config to GOAT-10 (6eeb5c32-6bf0-36ad-b33b-b688a36774b0)
+[12May2026 01:43:52.225] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of GOAT-10 (20)
+[12May2026 01:43:52.226] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to GOAT-10
+[12May2026 01:43:57.052] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0
+[12May2026 01:43:58.089] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0
+[12May2026 01:43:58.090] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player GOAT-10 (6eeb5c32-6bf0-36ad-b33b-b688a36774b0) successfully connected to voice chat
+[12May2026 01:45:30.024] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 is bleeding...
+[12May2026 01:45:30.024] [Server thread/WARN] [tombstone/]: The death event of the player GOAT-10 was canceled by another mod
+[12May2026 01:45:30.028] [Server thread/INFO] [tombstone/]: The player GOAT-10 has successfully been saved
+[12May2026 01:45:35.174] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 was burnt to a crisp whilst fighting ElFenix09
+[12May2026 02:18:06.401] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ElFenix09 has made the advancement [Bonfire Lit]
+[12May2026 02:20:46.301] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=514, y=70, z=1032} BlockPos{x=514, y=69, z=1033}
+[12May2026 02:20:59.776] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=520, y=70, z=1017} BlockPos{x=520, y=69, z=1016}
+[12May2026 02:22:24.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 is bleeding...
+[12May2026 02:22:24.627] [Server thread/WARN] [tombstone/]: The death event of the player GOAT-10 was canceled by another mod
+[12May2026 02:22:24.640] [Server thread/INFO] [tombstone/]: The player GOAT-10 has successfully been saved
+[12May2026 02:22:37.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GOAT-10 was blown up by Creeper
+[12May2026 02:22:49.935] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0 timed out
+[12May2026 02:22:49.935] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player GOAT-10
+[12May2026 02:22:49.936] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to GOAT-10
+[12May2026 02:22:52.089] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0
+[12May2026 02:22:53.092] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6eeb5c32-6bf0-36ad-b33b-b688a36774b0
+[12May2026 02:22:53.093] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player GOAT-10 (6eeb5c32-6bf0-36ad-b33b-b688a36774b0) successfully connected to voice chat
